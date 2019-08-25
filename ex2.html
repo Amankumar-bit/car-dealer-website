@@ -1,0 +1,41 @@
+<html>
+<head><title>slider
+</title>
+<style>
+
+#yu
+{
+  display:flex;
+  flex-direction:row;
+}
+</style>
+<script>
+ 
+  var c;
+
+ var i=0;
+ function doo() 
+ {
+
+  i=i+1;
+
+
+  
+   var x =document.getElementById("pi");
+x.innerHTML=i;  /* if you do not want to include the number in the button  then do not enter this line.....  */
+
+   alert("u have clicked  "+i+"  times.");    /*if here in place of i there is x.innerHTML=i then the no will also print on button and alert..  */
+   
+ }
+  </script>
+
+</head>
+<body>
+ 
+  <button id="pi" onclick="doo()" style="width:1400px;height:100px;background-color:rgb(60, 190, 190); position:relative;left:200px;margin-top:500px;font-size:40px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">click me</button>
+<!-- <p > </p> -->
+
+
+</body>
+</html>
+

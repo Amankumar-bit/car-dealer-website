@@ -1,0 +1,44 @@
+<html>
+<head><title>slider
+</title>
+<style>
+
+#yu
+{
+  display:flex;
+  flex-direction:row;
+}
+</style>
+<script>
+  var t;
+ 
+  var i=0;
+function doo() 
+{
+  var b=["black","blue","red"];
+  var x=document.getElementById("pi");
+ 
+
+for(t=0;t<3;t++)
+{
+x.style.backgroundColor="black";
+if(t==2)
+{
+  t=0;
+}
+}
+}
+
+  </script>
+
+</head>
+<body>
+ <div >
+  <img src="poi.jpg" style="width:80%;height:30%;margin-left:200px">
+</div>
+  <button  id="pi" onclick="doo()" style="width:80%;height:45%;position:relative;left:200px"></button>
+
+
+</body>
+</html>
+

@@ -1,0 +1,69 @@
+<html>
+<head>
+<title> document</title>
+<script>
+<style>
+ 
+function myfunction()
+
+    {
+ 
+    #road
+    {
+border-bottom:7px dashed black;
+ }
+#runner
+{
+background:url("https://openclipart.org/download/301221/1525205509.svg");
+width:296.12px;
+height:625px;
+animation:walk 0.8s steps(8) infinite,
+            forward 5s linear infinite;
+
+
+}
+
+@keyframes walk{
+
+    0%{
+        background-position: 0px;
+
+    }
+    100%
+    {
+        background-position: 2369px;
+    }
+}
+@keyframes forward{
+    0%{
+transform: translateX(-100px);
+
+    }
+100%
+{
+    transform:translateX(1400px);
+}
+}
+    }
+</style>
+
+</script>
+
+
+</head>
+
+<body style="background-color:orange;">
+<input onclick="myfunction()" type="submit" style="background-color:orangered;width:300px;height:30px;"/>
+    <div id="runner">
+
+</div>
+<div id="road">
+
+</div>
+
+</body>
+
+
+
+</html>
+
